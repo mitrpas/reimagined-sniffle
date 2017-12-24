@@ -1,0 +1,129 @@
+.clear::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+
+/*body {
+	background: url(../images/barbershop-index.jpg) no-repeat;
+	background-size: 2560px contain;
+	margin: 0;
+}
+
+*/
+
+body > * {
+	border: #000 solid 1px;
+}
+
+.container {
+	border: #f60808 solid 1px;
+}
+
+.container > * {
+	background-color: rgba(197, 27, 27, .5);
+}
+
+
+.features > * {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.index-content > * {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.main-header {
+	margin-bottom: 60px;
+}
+
+.main-navigation {
+	width: 780px;
+	float: left;
+	min-height: 70px;
+}
+
+.user-box {
+	width: 140px;
+	float: right;
+	min-height: 70px;
+}
+
+.index-logo {
+	height: 204px;
+	width: 368px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+.features {
+	margin-bottom: 80px; 
+}
+
+.features :last-child {
+	margin-right: 0;
+} 
+
+.features-item {
+	width: 300px;
+	float: left;
+	min-height: 180px;
+	margin-right: 20px; 
+}
+
+.index-content {
+	padding: 50px 80px;
+	margin-bottom: 35px;
+}
+
+.index-content :last-child {
+	margin-bottom: 0; 
+}
+
+.index-content-left {
+	width: 380px;
+	min-height: 330px;
+	float: left;
+}
+
+.index-content-right {
+	width: 300px;
+	min-height: 330px;
+	float: right;
+}
+
+.main-footer {
+	margin-top: 60px; 
+	padding: 60px 0 40px 0;
+}
+
+.footer-contacts {
+	width: 300px;
+	float: left;
+	margin-right: 60px;
+}
+
+.footer-social {
+	width: 180px;
+	float: left;
+}
+
+.footer-copyrighter {
+	width: 140px;
+	float: right;
+}
